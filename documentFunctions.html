@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<body>
+    <p id = "Math.random"></p>
+    <p id = "Math.min"></p>
+    <p id = "Math.round"></p>
+    <p id = "Math.floor"></p>
+    <p id = "Math.ceil"></p>
+    <p id = "index"></p>
+    <p id = "length"></p>
+    <p id = "toString"></p>
+    <p id = "join"></p>
+    <p id = "pop"></p>
+    <p id = "shift"></p>
+    <p id = "push"></p>
+    <p id = "unshift"></p>
+    <p id = "unshift"></p>
+    <p id = "show"></p>
+    <p id = "sort"></p>
+    <p id = "reverse"></p>
+    <p id = "concat"></p>
+    <button onclick="myFunction()">Click Me</button>
+    <p id = "mulFunction"></p>
+    <p id = "time"></p> 
+    <script>
+        document.getElementById("Math.random").innerHTML= Math.random(); //round to nearest integer below/above 0.5
+        document.getElementById("Math.min").innerHTML = Math.min(6,3, 5, -5, -15);
+        document.getElementById("Math.round").innerHTML = Math.round(15.6);
+        document.getElementById("Math.floor").innerHTML = Math.floor(15.6);
+        document.getElementById("Math.ceil").innerHTML = Math.ceil(15.6);
+
+        //arrays
+        var nums = [6,3, 5, -5, -15];
+        document.getElementById("index").innerHTML = nums[0];  
+        document.getElementById("length").innerHTML = nums.length;  
+        document.getElementById("toString").innerHTML = nums.toString();
+        document.getElementById("pop").innerHTML = nums.pop();    //removes last element
+        document.getElementById("pop").innerHTML = nums.shift();  //to remove first element
+        document.getElementById("push").innerHTML = nums.push(6);   //towards end
+        document.getElementById("unshift").innerHTML = nums.unshift(7);  //add element to beginning of array
+        document.getElementById("join").innerHTML = nums.join(", ");
+        //using index, change values
+        nums[0] = 8;
+        delete nums[1]; 
+        //splice()
+        nums.splice(2, 0, 11, 22);
+        document.getElementById("show").innerHTML = nums;
+        //sort()
+        var letters =['w','a', 'z'];
+        document.getElementById("sort").innerHTML = letters.sort().join(", ");
+        document.getElementById("reverse").innerHTML = letters.reverse().join(", ");
+        //join two arrays
+        var groupA = ['a','c'];
+        var groupB = ['b','d'];
+        document.getElementById("concat").innerHTML = groupA.concat(groupB);
+
+        //if-else 
+        var score = 110;
+        if(score < 50)
+            document.write("F");
+        else if(score < 70)
+            document.write("D");
+        else if(score < 80)
+            document.write("C");
+        else if(score < 90)
+            document.write("B");
+        else if(score < 100)
+            document.write("A");
+        else
+            document.write("Score must be less than 100" + "<br>");
+
+        //comparisons ops
+        var x = 6;
+        document.write( x == 6 );
+        document.write("<br>");
+        document.write( Boolean(80)+ " "+ Boolean(2,86) +" "+ Boolean(-10) +" "+Boolean('false')+" "+ Boolean(1+1.2)+" " + Boolean(0));
+
+        //loops
+        for(var i = 0; i < 3; i++){
+            document.write(i);
+            document.write("<br>");
+        }
+
+        //myFunction()
+        function myFunction(){
+            var i = 5;
+            do{
+                document.write(i +"<br>");
+                i++;
+            }while(i<5);
+        }
+        //mulFunction
+        function mulFunction(a,b){
+            return a * b;
+        }
+        document.getElementById("mulFunction").innerHTML = mulFunction(3,4);
+
+        //Javascript Events - mouseclick, mouseover, mouseout,keydown //document load
+      
+        let date = new Date();
+        document.getElementById("time").innerHTML = date.getFullYear();
+        //<button onclick = "getElementById('time').innerHTML=date.getFullYear()">Time</button>
+    </script>
+</body>
+</html>

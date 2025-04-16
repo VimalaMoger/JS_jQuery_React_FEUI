@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+	<body>
+		<p id="add"></p>
+		<p id="addAndMultiply"></p>
+        <p id = "Subtract"></p>
+        <p id = "Divide"></p>
+        <p id = "Increment"></p>
+        <p id = "CarType"></p>
+        <p id = "PersonEyeColor"></p>
+        <p id = "singleDoubleQuotes"></p>
+        <p id = "quotesinLine"></p>
+
+        <script>
+            var x = 100 + 20;
+            document.getElementById("add").innerHTML =x;
+
+            var add= 3;
+            var mul= (12 + 12) * add;
+            document.getElementById("addAndMultiply").innerHTML = mul;
+
+            var subtract = 12 - 2;
+            document.getElementById("Subtract").innerHTML = subtract;
+
+            var divide = 12 / 3;
+            document.getElementById("Divide").innerHTML = divide;
+            
+            x++;
+            var increment = x;
+            document.getElementById("Increment").innerHTML = increment;
+
+            //operator precedence
+            //object reference
+            var car = { type:"Acura", model:"Integra", color:"white"}
+            document.getElementById("CarType").innerHTML = car.type;
+
+            var person ={ name :"John", eyeColor:"blue"}
+            document.getElementById("PersonEyeColor").innerHTML = 
+            person.name +" has " + person.eyeColor + " eyes";
+
+            //using single and double quotes with names
+            var boy = "Ryan";
+            var girl = 'Asha';
+            document.getElementById("singleDoubleQuotes").innerHTML =
+            boy + "<br>" + girl;
+
+            //using quotes inside the line
+            var line1 = "It's about time";
+            var line2 = "He is called 'Xavier'";
+            var line3 = 'He is called "Xavier"';
+            var line4 = "We are the best \"players\" in the country";
+            document.getElementById("quotesinLine").innerHTML =
+            line1 + "<br>" + line2 + "<br>" + line3 + "<br>" + line4;
+
+            
+
+        </script>
+	</body>
+</html>
