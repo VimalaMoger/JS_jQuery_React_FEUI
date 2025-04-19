@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("button").click(function(){
+                    //$("h1").hide();
+                    //$("p").hide();
+                    //$("#heading2").hide();
+                    //$("*").hide();//all the elements disappears
+                    //$(this).hide(); //hide button 
+                    $(":button").hide(); //hide button 
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>My first web page</h1>
+        <h2 id="heading2">This is below first heading</h2>
+        <p>First Paragraph with line1</p>
+        <p>Second Paragraph with line2</p>
+        <button>Hide</button>
+    </body>
+</html>

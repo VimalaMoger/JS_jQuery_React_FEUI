@@ -13,7 +13,6 @@
     <p id = "shift"></p>
     <p id = "push"></p>
     <p id = "unshift"></p>
-    <p id = "unshift"></p>
     <p id = "show"></p>
     <p id = "sort"></p>
     <p id = "reverse"></p>
@@ -34,7 +33,7 @@
         document.getElementById("length").innerHTML = nums.length;  
         document.getElementById("toString").innerHTML = nums.toString();
         document.getElementById("pop").innerHTML = nums.pop();    //removes last element
-        document.getElementById("pop").innerHTML = nums.shift();  //to remove first element
+        document.getElementById("shift").innerHTML = nums.shift();  //to remove first element
         document.getElementById("push").innerHTML = nums.push(6);   //towards end
         document.getElementById("unshift").innerHTML = nums.unshift(7);  //add element to beginning of array
         document.getElementById("join").innerHTML = nums.join(", ");
@@ -98,7 +97,7 @@
       
         let date = new Date();
         document.getElementById("time").innerHTML = date.getFullYear();
-        //<button onclick = "getElementById('time').innerHTML=date.getFullYear()">Time</button>
+       // <button onclick = "getElementById('time').innerHTML=date.getFullYear()">Click Time Button</button>
     </script>
 </body>
 </html>
