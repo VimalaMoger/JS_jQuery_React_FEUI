@@ -121,6 +121,29 @@ $(document).ready(function(){
     $("#button2").click(function(){
         alert($("#milklist").html());
     })
+    //Get content value
+    $("#getVal").click(function(){
+        alert("Hey, this is " + $("#name").val());
+    });
+
+    //Get attribute value
+    $("#image").click(function(){
+        alert("Image: "+ $("#ref").attr("href"));
+    })
+
+    //jQuery Set content-text-html-value
+    $("#resetText").click(function(){
+        $("#text").text("Your Name:" );
+    })
+    $("#resetHtml").click(function(){
+        $("#text").html("<b>Your Name: <input type=\"text\"</b>");
+    })
+    $("#resetVal").click(function(){
+        $("#name").val("Bob Smith");
+    })
+    
+    //jQuery set Attributes
+    
 
     //Animate square using left, opacity, height properties
      $("#square").click(function(){
@@ -145,7 +168,6 @@ $(document).ready(function(){
     $(".stop").click(function(){
         $("#square").stop();
             alert("The square stopped rolling!")
-
     }); 
 
     //console output showing x and y co-ordinates values

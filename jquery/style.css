@@ -63,7 +63,7 @@
 
   #milk, #milklist{
     margin: auto;
-    width: 10%;
+    width: 50%;
     border: 3px solid yellowgreen;
     padding: 10px;
     border-radius: 20%;
@@ -116,3 +116,10 @@
     background-color: rgb(209, 180, 15);
     border-style: double;
   }
+
+ #accordion{
+  margin-bottom: 15px;
+ }
+ #button1,#button2{
+  border-color: red;
+ }

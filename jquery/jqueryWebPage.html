@@ -5,7 +5,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"
         integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="
-        crossorigin="anonymous"></script>"></script>
+        crossorigin="anonymous"></script>
         
         <script src = "jquery_functions.js"></script>
         <link rel="stylesheet" href="style.css">
@@ -14,7 +14,13 @@
     <body>
         <h1>My First Web Page</h1>
         <h2 id="heading2" style="color: rgb(214, 40, 214);">This text moves with mouse movement</h2>
-
+        <div>
+          <p id="text">Name: <input type="text" id ="name" value="John Smith"></p>
+          <button id="getVal">Get Name</button>
+          <button id="resetVal">Reset Value</button>
+          <button id="resetText">Reset Text</button>
+          <button id="resetHtml">Reset Html</button>
+        </div>  
         
         <button id="hidden">Hide</button>
         <button id="visible">Show</button>
@@ -55,82 +61,84 @@
           <div>15Min</div>
         </div>
     
-        <br>
         <div>
-          <button id="button1">Show Text</button>
-          <button id="button2">Show Html</button>
-        </div>
-        <br>
-        <h3 id="milk">Milk Product list</h3>
-        <ul id="milklist">
-            <li>Milk</li>
-            <li>
-              Cheese
-              <ul>
-                <li>Blue cheese</li>
-                <li>Feta</li>
+          <div style="display:inline-block;">
+            <div style="margin-bottom:15px;">
+              <button id="button1">Show Text</button>
+              <button id="button2">Show Html</button>
+            </div>
+            <h5 id="milk" >Milk Product list</h5>
+            <div id="list"></div>
+            <ul id="milklist">
+                <li>Milk</li>
+                <li>
+                  Cheese
+                  <ul>
+                    <li>Blue cheese</li>
+                    <li>Feta</li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-
-        <br>
-
-        <table>
-            <caption>
-              Front-end web developer course 2025
-            </caption>
-            <thead>
-              <tr>
-                <th scope="col">Person</th>
-                <th scope="col">Most interest in</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Sarah</td>
-                <td>Web accessibility</td>
-              </tr>
-              <tr>
-                <td>David</td>
-                <td>JavaScript frameworks</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <th scope="row" colspan="2">Average age</th>
-                <td>33</td>
-              </tr>
-            </tfoot>
-      </table>
-      
-      <a href="javascript:alert('Hi, I was clicked');">Click here</a>
+          </div>
+  
+          <table style="display:inline-block;border-color:blue;margin-left:150px;">
+              <caption>
+                Front-end web developer course 2025
+              </caption>
+              <thead>
+                <tr>
+                  <th scope="col">Person</th>
+                  <th scope="col">Most interest in</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sarah</td>
+                  <td>Web accessibility</td>
+                </tr>
+                <tr>
+                  <td>David</td>
+                  <td>JavaScript frameworks</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th scope="row" colspan="2">Average age</th>
+                  <td>33</td>
+                </tr>
+              </tfoot>
+          </table>
+        </div>
 
       <br><br>
 
       <div id="coordinates">Mouse X: 0, Mouse Y: 0</div>
 
-      <br>
-
-      <a href="https://www.google.com" 
-          target="_blank">Google</a>
-    
-      <a href="images/img1.jpg" download>
-        <img src="images/img1.jpg" alt="Art" width="50", height="30">
-      </a>
+      <div style="margin-top: 15px;">
+        <a href="javascript:alert('Hi, I was clicked');">Click here</a>
+        <a href="images/img4.jpg" id="ref" download>
+          <img src="../images/img4.jpg" alt="Art" width="50", height="30">
+        </a><button id="image">Show Image</button>
+      </div>  
+      
 
       <audio controls>
-        <!-- <source src=""> -->
+        <source src="../audio/bollywood-song-313044.mp3">
+        type="audio/mp3">
       </audio>
-
+ 
       <br>
+      <details style="margin-bottom: 15px;">
+        <address>
+          Contact author <a href="mailto:johnsmith@abccompany.com" 
+          target="_blank">John Smith</a> 
+        </address>
+        Contact details <a href="tel:xxx-xxx-xxxx">Phone</a>
+      </details>
 
-      <address>
-        Contact author <a href="mailto:abc@company.com" 
-        target="_blank">AuthorName</a> 
-      </address>
-
-      Contact details <a href="tel:xxx-xxx-xxxx">Phone</a>
-
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220475.61908490144!2d-97.89812076670185!3d30.29601027596263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1745603973358!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <map name="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220475.61908490144!2d-97.89812076670185!3d30.29601027596263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1745603973358!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </map>
+      
       </body>
 </html>
