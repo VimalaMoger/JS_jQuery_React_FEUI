@@ -1,0 +1,64 @@
+/* fade In */
+/* fade Toggle */
+.box1{
+    width:160px;
+    height:160px;
+    display: none;
+    background-color: grey;
+  }
+  .box1 > .box2{
+    width:120px;
+    height:120px;
+    margin-inline: 20px;
+    display: none;
+    background-color: brown;
+  }
+  .box2 > .box3{
+    width:80px;
+    height:80px;
+    margin-inline: 20px;
+    display: none;
+    background-color: yellow;
+  }
+ 
+  .box3 >.box4{
+    width:40px;
+    height:40px;
+    margin-inline: 20px;
+    display: none;
+    background-color: red;
+  }
+
+  /* fade out */
+  .box1{
+    width:160px;
+    height:160px;
+    /*display: none;    div's are not visible on page load */
+    background-color: grey;
+  }
+  .box1 > .box2{
+    width:120px;
+    height:120px;
+    margin-inline: 20px;
+   
+    background-color: brown;
+  }
+  .box2 > .box3{
+    width:80px;
+    height:80px;
+    margin-inline: 20px;
+    background-color: yellow;
+  }
+ 
+  .box3 >.box4{
+    width:40px;
+    height:40px;
+    margin-inline: 20px;
+    background-color: red;
+  }
+  #b1,#b2,#b3,#b4{
+    border-color: blue;
+  }
+
+ 
+
