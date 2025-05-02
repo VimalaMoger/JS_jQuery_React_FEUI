@@ -11,7 +11,7 @@ The ready event
   * Using key html tags to modify the contents within the document page, writing code for animation, X and Y coordinates
 > 
 ## Contents  
-#### Libraries
+<!-- #### Libraries -->
 
 ```js
  - Included jQuery library from Google CDN
@@ -36,8 +36,7 @@ The ready event
 - [] jQuery
 - [] react
 
-
-**Tip:**
+**Learned about:**
 - Other option to call ``jQuery(function($) {`` a ready function(shorter method) after the document is finished loading
 -  Always keep Document ready event block inside `<script>...</script>` 
 -  Always keep the script tag either inside the `<head>...</head>` or at the bottom of the page before closing `<body>` tag
