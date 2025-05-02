@@ -21,7 +21,7 @@ $(document).ready(function(){
     //Single event
     //$("#milk").mouseup(message);  //mouseup
     
-    //Adding multiple in jQuery
+    //Adding multiple events in jQuery
     $("#milk").on({
          mouseenter: function(){
              $(this).css("background-color", "yellow");

@@ -8,7 +8,7 @@ The ready event
 `$(document).ready(function(){`
      
 
-  * Using key html tags to modify the contents within the document page, animation, X and Y coordinates
+  * Using key html tags to modify the contents within the document page, writing code for animation, X and Y coordinates
 > 
 ## Contents  
 #### Libraries
@@ -36,14 +36,11 @@ The ready event
 - [] jQuery
 - [] react
 
-## Images
-<!-- ![My image](images/img1.jpg)  -->
-
 
 **Tip:**
 - Other option to call ``jQuery(function($) {`` a ready function(shorter method) after the document is finished loading
 -  Always keep Document ready event block inside `<script>...</script>` 
--  Always keep this script tag either inside the `<head>...</head>` or at the bottom of the page before closing `<body>` tag
+-  Always keep the script tag either inside the `<head>...</head>` or at the bottom of the page before closing `<body>` tag
 
 ## References
 <details>
