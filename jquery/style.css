@@ -120,6 +120,13 @@
  #accordion{
   margin-bottom: 15px;
  }
- #button1,#button2{
+ #button1,#button2,#addItem1, #addItem2{
   border-color: red;
+  margin-bottom : 15px;
+  margin-top : 15px;
+ }
+ 
+ .useCSSStyle{
+  font-size: x-large;
+  font-weight: bold;
  }

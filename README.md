@@ -1,15 +1,16 @@
 # Project goal
 
-I started with ***JavaScript***  focusing on common elements on html DOM.
+> Started with ***JavaScript***:
+  * InnerHTML, Functions, Arrays, Events on HTML DOM
+  * Developed small scripts for BG Color Changer, Photo Gallery
 
-Currently working on _jQuery_ using css styles
-The ready event 
-    
-`$(document).ready(function(){`
-     
+> Worked on _jQuery_ using CSS Styles:
+  * Implemented jQuery syntax and Selector, external jQuery File, Events, multiple Event Handlers, Animate, Callback Functions, Chaining,...  
+  * Wrote a code for animation, X and Y coordinates
+> Made a React Calculator application with (+,-,/,*) functions. 
+  * Worked with React State Hook, Functional Components, Props, Callbacks, onClick Events.
+  * Implemented Calculator Display and Operators.
 
-  * Using key html tags to modify the contents within the document page, writing code for animation, X and Y coordinates
-> 
 ## Contents  
 <!-- #### Libraries -->
 
@@ -25,15 +26,15 @@ The ready event
 |------------|---------------|
 | JavaScript |ECMAScript/ES14|                
 | jQuery     | 3.7.1         | 
-| React      | 19.1          |    
 | jQueryUI   | 1.14.1        |
-| Git        | 2.49.0        |
+| React      | 19.1.0        |
+| Node.js    | 22.15.0       | 
 ```
 
 ## Tasks
 
 - [x] JavaScript
-- [] jQuery
+- [x] jQuery
 - [] react
 
 **Learned about:**

@@ -63,13 +63,13 @@
     
         <div>
           <div style="display:inline-block;">
-            <div style="margin-bottom:15px;">
+            <div>
               <button id="button1">Show Text</button>
               <button id="button2">Show Html</button>
             </div>
             <h5 id="milk" >Milk Product list</h5>
-            <div id="list"></div>
-            <ul id="milklist">
+            <div id="list">
+              <ul id="milklist">
                 <li>Milk</li>
                 <li>
                   Cheese
@@ -79,66 +79,83 @@
                   </ul>
                 </li>
               </ul>
+              <button id="addItem2">Add item from First</button>
+              <button id="addItem1">Add item to Last</button>
+            </div>
           </div>
-  
-          <table style="display:inline-block;border-color:blue;margin-left:150px;">
-              <caption>
-                Front-end web developer course 2025
-              </caption>
-              <thead>
-                <tr>
-                  <th scope="col">Person</th>
-                  <th scope="col">Most interest in</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Sarah</td>
-                  <td>Web accessibility</td>
-                </tr>
-                <tr>
-                  <td>David</td>
-                  <td>JavaScript frameworks</td>
-                </tr>
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th scope="row" colspan="2">Average age</th>
-                  <td>33</td>
-                </tr>
-              </tfoot>
-          </table>
+          <br><br>
+          <table id="rules" style="display:inline-block;border-color:blue;">
+                <caption>
+                  Front-end web developer course 2025
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Person</th>
+                    <th scope="col">Most interest in</th>
+                  </tr>
+                </thead>
+                <tbody id="tby">
+                  <tr id="sarah">
+                    <td>Sarah</td>
+                    <td>Web accessibility</td>
+                  </tr>
+                  <tr id="david">
+                    <td>David</td>
+                    <td>JavaScript frameworks</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th scope="row" colspan="2">Average age</th>
+                    <td>33</td>
+                  </tr>
+                </tfoot>
+            </table>     
+          <button id="person1">Remove Sarah</button><button id="person2">Remove David</button>
+          <button class="toggleCSS">ToggleCSS</button>
+          <button class="useCSS">Use CSSStyle</button><button class="removeCSS">Remove CSSStyle</button>
         </div>
 
-      <br><br>
+        <br><br>
+        <div id="coordinates">Mouse X: 0, Mouse Y: 0</div>
 
-      <div id="coordinates">Mouse X: 0, Mouse Y: 0</div>
-
-      <div style="margin-top: 15px;">
-        <a href="javascript:alert('Hi, I was clicked');">Click here</a>
-        <a href="images/img4.jpg" id="ref" download>
-          <img src="../images/img4.jpg" alt="Art" width="50", height="30">
-        </a><button id="image">Show Image</button>
-      </div>  
-      
-
-      <audio controls>
-        <source src="../audio/audio.mp3">
-        type="audio/mp3">
-      </audio>
+        <div style="margin-top: 15px;">
+          <div style="margin-bottom: 15px;">
+            <a href="javascript:alert('Hi, I was clicked');">Click Me</a>
+          </div>
+          <br>
+          <a href="images/img4.jpg" id="ref" download>
+            <img src="../images/img4.jpg" alt="Art" width="50", height="30">
+          </a>
+          <div>
+            <button id="image">Show Image URL</button>
+            <button id="before">Insert Text Before Image</button> 
+            <button id="after">Insert Text after Image</button>
+          </div>
+        </div>
+        <br>
+        <div id="audioclip">
+          <audio controls>
+            <!-- <source src="../audio/audio.mp3"> -->
+            <source src="audio/audio.ogg"></source>
+            <source src="https://pixabay.com/music/india-bollywood-song-313044/">
+            type="audio/mp3">
+          </audio>
+          <button id="remove">Remove Audio</button>
+        </div>
  
-      <br>
-      <details style="margin-bottom: 15px;">
-        <address>
-          Contact author <a href="mailto:johnsmith@abccompany.com" 
-          target="_blank">John Smith</a> 
-        </address>
-        Contact details <a href="tel:xxx-xxx-xxxx">Phone</a>
-      </details>
+        <br>
+        <details style="margin-bottom: 15px;">
+          <address>
+            Contact author <a href="mailto:johnsmith@abccompany.com" 
+            target="_blank" id="url">John Smith</a> 
+          </address>
+          Contact details <a href="tel:xxx-xxx-xxxx">Phone</a>
+        </details>
 
-      <map name="location">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220475.61908490144!2d-97.89812076670185!3d30.29601027596263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1745603973358!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </map>
+        <map name="location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220475.61908490144!2d-97.89812076670185!3d30.29601027596263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1745603973358!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </map>
       
       </body>
 </html>

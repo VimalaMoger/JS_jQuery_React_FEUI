@@ -129,21 +129,65 @@ $(document).ready(function(){
     //Get attribute value
     $("#image").click(function(){
         alert("Image: "+ $("#ref").attr("href"));
-    })
+    });
 
     //jQuery Set content-text-html-value
     $("#resetText").click(function(){
         $("#text").text("Your Name:" );
-    })
+    });
     $("#resetHtml").click(function(){
         $("#text").html("<b>Your Name: <input type=\"text\"</b>");
-    })
+    });
     $("#resetVal").click(function(){
         $("#name").val("Bob Smith");
-    })
+    });
     
     //jQuery set Attributes
-    
+    $("#ref2").click(function(){
+        $("#ref2").attr("href", "http://www.gmail.com");
+    });
+
+    //jQuery Append and Prepend after or before 
+    $("#addItem1").click(function(){
+        $("#milklist").append("<li>Yogurt</li>");
+    });
+    $("#addItem2").click(function(){
+        $("#milklist").prepend("<li>Cream</li>");
+    });
+
+    //insert text before or after
+    $("#before").click(function(){
+        $("img").before("<b>It's an Art</b>");
+    });
+    $("#after").click(function(){
+        $("img").after("<b>It's an Art</b>");
+    });
+
+    //remove audio
+    $("#remove").click(function(){
+        $("#audioclip").remove();// or empty() to clear content
+    });
+
+    //remove a person(row) from table
+    $("#person1").click(function(){
+        $("#sarah").remove();
+    });
+    $("#person2").click(function(){
+        $("#david").remove();
+    });
+
+    //use CSSStyle
+    $(".useCSS").click(function(){
+        $("td").addClass("useCSSStyle");
+    });
+    //remove CSS class
+    $(".removeCSS").click(function(){
+        $("td").removeClass("useCSSStyle");
+    });
+    //ToggleCSS
+    $(".toggleCSS").click(function(){
+        $("td").toggleClass("useCSSStyle");
+    });
 
     //Animate square using left, opacity, height properties
      $("#square").click(function(){
