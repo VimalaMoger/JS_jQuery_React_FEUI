@@ -7,9 +7,27 @@
 > Worked on _jQuery_ using CSS Styles:
   * Implemented jQuery syntax and Selector, external jQuery File, Events, multiple Event Handlers, Animate, Callback Functions, Chaining,...  
   * Wrote a code for animation, X and Y coordinates
-> Made a React Calculator application with (+,-,/,*) functions. 
-  * Worked with React State Hook, Functional Components, Props, Callbacks, onClick Events.
+> React Simple Calculator application:
+  * Worked with React State Hook, Functional Components, Properties, Callbacks, onClick Events.
   * Implemented Calculator Display and Operators.
+> React Connect-4 Clone Board Game:
+
+* Developed a functional and playable Small GameBoard with 16 Circles
+ 
+    * Used useEffect and useState Hooks while developing React app
+  
+    * Implemented Callbacks in response to Click Events
+    
+        * Pass properties to Components and Deconstruct these properties in child Components
+    
+        * Style the components Header, Footer, and Board, with Different Styles including:
+            -  Dynamic, Inline and Dynamic classes
+    
+        * Determine Winner and Draw condition. Update the Board Header with game State
+  
+    * Footer in initializing the board. Implemented Computer player(Basic AI)
+  
+    * Created some CSS Variables.
 
 ## Contents  
 <!-- #### Libraries -->
@@ -37,16 +55,13 @@
 - [x] jQuery
 - [] react
 
-**Learned about:**
-- Other option to call ``jQuery(function($) {`` a ready function(shorter method) after the document is finished loading
--  Always keep Document ready event block inside `<script>...</script>` 
--  Always keep the script tag either inside the `<head>...</head>` or at the bottom of the page before closing `<body>` tag
-
 ## References
 <details>
 
-  [StackOverflowQ/A](https://stackoverflow.com  "Answers")<br>
+  [StackOverflowQ/A](https://stackoverflow.com  "QA")<br>
   [Medium](https://medium.com)<br>
-  [Tutorialspoint](https://www.tutorialspoint.com)
+  [Tutorialspoint](https://www.tutorialspoint.com)<br>
+  [W3Schools](https://www.w3schools.com)
+  
 </details>
 
