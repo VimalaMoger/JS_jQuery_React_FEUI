@@ -1,33 +1,35 @@
 # Project goal
 
-> Started with ***JavaScript***:
+> ***JavaScript*** Development:
   * InnerHTML, Functions, Arrays, Events on HTML DOM
   * Developed small scripts for BG Color Changer, Photo Gallery
 
-> Worked on _jQuery_ using CSS Styles:
+> _jQuery_ Development:
   * Implemented jQuery syntax and Selector, external jQuery File, Events, multiple Event Handlers, Animate, Callback Functions, Chaining,...  
   * Wrote a code for animation, X and Y coordinates
-> React Simple Calculator application:
+  
+> React Simple Calculator Application:
   * Worked with React State Hook, Functional Components, Properties, Callbacks, onClick Events.
   * Implemented Calculator Display and Operators.
+  
+  
 > React Connect-4 Clone Board Game:
-
-* Developed a functional and playable Small GameBoard with 16 Circles
- 
-    * Used useEffect and useState Hooks while developing React app
+  * Developed a functional and playable Small GameBoard with 16 Circles
   
-    * Implemented Callbacks in response to Click Events
+      * Used useEffect and useState Hooks while developing React app
     
-        * Pass properties to Components and Deconstruct these properties in child Components
+      * Implemented Callbacks in response to Click Events 
+      
+          * Pass properties to Components and Deconstruct these properties in child Components
+      
+          * Style the components Header, Footer, and Board, with Different Styles including:
+              -  Dynamic, Inline and Dynamic classes
+      
+          * Determine Winner and Draw condition. Update the Board Header with game State
     
-        * Style the components Header, Footer, and Board, with Different Styles including:
-            -  Dynamic, Inline and Dynamic classes
+      * Footer in initializing the board. Implemented Computer player(Basic AI)
     
-        * Determine Winner and Draw condition. Update the Board Header with game State
-  
-    * Footer in initializing the board. Implemented Computer player(Basic AI)
-  
-    * Created some CSS Variables.
+      * Created some CSS Variables.
 
 ## Contents  
 <!-- #### Libraries -->

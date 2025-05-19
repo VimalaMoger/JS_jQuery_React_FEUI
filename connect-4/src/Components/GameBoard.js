@@ -9,7 +9,7 @@ import {NO_OF_CIRCLS, PLAYER0, PLAYER1, PLAYER2, GAME_STATE_PLAYING, GAME_STATE_
 
 //Component GameBoard
 const GameBoard = () => {
-    const [gameBoard, setGameBoard] = useState(Array(16).fill(PLAYER0));
+    const [gameBoard, setGameBoard] = useState(Array(NO_OF_CIRCLS).fill(PLAYER0));
     const [currentPlayer, setCurrentPlayer] = useState(PLAYER1);
     const [gameState, setGameState] =  useState(GAME_STATE_PLAYING);
     const [winPlayer, setWinPlayer] = useState(PLAYER0);
@@ -61,8 +61,8 @@ const GameBoard = () => {
              setGameState(GAME_STATE_DRAW);
              setWinPlayer(PLAYER0);
          }
-        setGameBoard(prev => {
-            return prev.map((circle,pos) =>{
+        setGameBoard( (prev) => {
+            return prev.map((circle, pos) =>{
                 if(pos === id)
                     return currentPlayer;
                 return circle;

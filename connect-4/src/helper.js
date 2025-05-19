@@ -19,7 +19,7 @@ export const isWinner = (gameBoard, currentMove, currentPlayer) => {
 
     for(let i=0; i< winLines.length; i++){
         const [c1,c2,c3,c4] = winLines[i];
-        if(board[c1] > 0  &&    //if(gameBoard length > 0, if player already clicked a circle)
+        if(board[c1] > 0  &&    //if element > 0, if player already clicked a circle)
             board[c1] === board[c2] &&
             board[c2] === board[c3] &&
             board[c3] === board[c4]){
