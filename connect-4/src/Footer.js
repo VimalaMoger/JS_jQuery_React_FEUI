@@ -6,7 +6,7 @@ const Footer =({onNewGameEvent, onSuggestClickEvent}) =>{
     return (
         <div className="panel footer">
             <button onClick={onNewGameEvent}>New Game</button>
-            <button onClick={onSuggestClickEvent}>Next Move</button>
+            <button onClick={onSuggestClickEvent}>Computer Move</button>
         </div>
     );
 };
