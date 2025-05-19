@@ -67,3 +67,15 @@
   
 </details>
 
+### Screenshots:
+### Calculator
+
+![Calculator](./images/calculator.png)
+
+
+### Connect-4 Clone
+![Connect-4 Clone](./images/connect4.png)
+
+
+
+
