@@ -43,7 +43,7 @@ const GameBoard = () => {
        return circles;
     }
 
-    //When Circle is clicked, either set the state(win, draw), who is playing, or set who won after connect-4, or set 
+    //When Circle is clicked, either set the state to(win, draw), who is playing
     const circleClicked = (id) =>{
         //debugger;
         console.log("circle clicked" +id);
