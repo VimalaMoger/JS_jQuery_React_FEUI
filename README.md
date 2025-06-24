@@ -46,9 +46,9 @@
 > ***_React_ - Build an E-Commerce Site***
 
   * Built a basic E-commerce store - we can browse product, view product details, add a product to the basket,
-    modify quntities in basket, including remove or clear all items, also a basic checkout page
+    modify quantities in basket, including remove or clear all items, also a basic checkout page
   
-    * Used a JSON file as a server for data access in React JS
+    * Used a JSON file(json-server) as a server for data access in React 
     
     * Made HTTP request using fetch() API to get JSON file.
     
@@ -120,6 +120,11 @@
 ![Connect-4 Clone](./images/connect4.png)
 
 [onNetlify](https://iridescent-quokka-786002.netlify.app/)
+
+### E-Commerce-Store
+![E-Store](./images/e-store.png)
+
+[onNetlify](https://cheerful-flan-a5f263.netlify.app/)
 
 
 
