@@ -109,6 +109,9 @@
 
 ### Screenshots:
 
+### jQuery Development
+[onNetlify(https://glowing-scone-599a90.netlify.app/)
+
 ### Calculator
 
 ![Calculator](./images/calculator.png)
