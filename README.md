@@ -1,72 +1,101 @@
 # Project goal
 
-> ***JavaScript*** Development:
-  * InnerHTML, Functions, Arrays, Events on HTML DOM
+> ***_JavaScript_ Development:*** 
 
-  * Developed small scripts for BG Color Changer, Photo Gallery
+  * Developed a Webpage using Document Object Model to manipulate Web Page Components, Embedded Internal and External JavaScript, JavaScript variables, Object in JS, Data Types, Arithmetic Operators, Random Numbers, Arrays, Splice, Sort, Join Arrays, Loops, Functions, and Events.
 
-> _jQuery_ Development:
-  * Implemented jQuery syntax and Selector, external jQuery File, Events, multiple Event Handlers, Animate, Callback Functions, Chaining,...  
+  * Developed scripts for BG Color Changer, Photo Gallery.
 
-  * Wrote a code for animation, X and Y coordinates
+> ***_jQuery_ Development:***
+
+  * Developed a Webpage using jQuery Syntax and Selectors, External jQuery File, Events, Toggle Components, Animate Objects, Callback Functions, Build Interactive Navigation Components, Get Content Method, Chaining, X and Y coordinates.
   
-> React Simple Calculator Application:
-  * Worked with React useState Hook that holds JSON object to track individual values.
-  
-  * Build Functional Components, learnt how to render these components and how React communicates between parent and child components using React properties and callback functions.
-  
-  * Implemented Calculator Display and Operators.
-  
-  * Did a build and deployed to Netlify.
-  
-  
-> React Connect-4 Clone Board Game:
-  * Developed a functional and playable Small GameBoard with 16 Circles
-  
-      * Used useEffect and useState Hooks while developing React app
+> ***_React_ - Simple Calculator Application:***
+
+    * Worked with React useState Hook that holds JSON object to track individual values.
     
-      * Implemented Callbacks in response to Click Events 
-      
-          * Pass properties to Components and Deconstruct these properties in child Components
-      
-          * Style the components Header, Footer, and Board, with Different Styles including:
-              -  Dynamic, Inline and Dynamic classes
-      
-          * Determine Winner and Draw condition. Update the Board Header with game State
+    * Build Functional Components, learnt how to render these components and how React communicates between parent and child components using React properties and callback functions.
     
-      * Footer in initializing the board. Implemented Computer player(Basic AI)
+    * Implemented Calculator Display, Numbers and Operators.
+    
+    * Did a build and deployed to Netlify.
+  
+  
+> ***_React_ - Connect-4 Clone Board Game:***
+
+  * Developed a functional and playable Small GameBoard with 16 Circles.
+  
+      * Used useEffect and useState Hooks while developing React app.
+    
+      * Implemented Callbacks in response to Click Events. 
+      
+          * Pass properties to Components and Deconstruct these properties in child Components.
+      
+          * Style the React UI Components with Different Styles including:
+              -  Dynamic, Inline and Dynamic classes.
+      
+          * Determine Winner and Draw condition. Update the Board Header with game State.
+    
+      * Footer in initializing the board. Implemented Computer player(Basic AI).
     
       * Created some CSS Variables.
   
       * Did a build and deployed to Netlify.
 
-## Contents  
+
+> ***_React_ - Build an E-Commerce Site***
+
+  * Built a basic E-commerce store - we can browse product, view product details, add a product to the basket,
+    modify quntities in basket, including remove or clear all items, also a basic checkout page
+  
+    * Used a JSON file as a server for data access in React JS
+    
+    * Made HTTP request using fetch() API to get JSON file.
+    
+    * Fetched data from APIs using Async-Await in Promises.
+     
+    * Implemented navigation mechanism by using react-router-dom
+    
+    * Used Link components, useNavigate Hook to make button change to correct route 
+    
+    * Implemented useReducer, useContext Hooks with Context for sharing state across components
+    
+    * Used useSearchParams for search products, useParams to access dynamic parameters 
+    
+    * Name, Email, Address validation and employed debouncing, disabling buttons
+  
+
+## Concepts  
 <!-- #### Libraries -->
 
->  Used ES6(JavaScript) Template Strings, Ternery Expression, const keyword, map() method, Arrays, switch statement, Spread Operator, Comparison Operators
+>  ES6(JavaScript) Template Strings, Ternery Expression, const Keyword, map() Method, Arrays, Switch Statement, Spread Operator, Comparison Operators, 
+>  Debugger, React Key Property, React LifeCycle Events, Conditional Rendering, JSON-Server, Fetch API, Routing using React Router, Search Feature using React, Local/Session Storage, JS Object function, Styled Components, Asynchronous concept, Promises, handling responses and errors in Promises
 
 ```js
- - Included jQuery library from Google CDN
-
+ - Included jQuery library from Google CDN  
  ```
  
 ### Libraries and versions
 
 ```
-| Library    | Version       | 
-|------------|---------------|
-| JavaScript |ECMAScript/ES14|                
-| jQuery     | 3.7.1         | 
-| jQueryUI   | 1.14.1        |
-| React      | 19.1.0        |
-| Node.js    | 22.15.0       | 
+| Library          | Version       | 
+|------------------|---------------|
+| JavaScript       |ECMAScript/ES14|                
+| jQuery           | 3.7.1         | 
+| jQueryUI         | 1.14.1        |
+| React            | 19.1.0        |
+| Node.js          | 22.15.0       |
+| react-router-dom | 7.6.2         |
+| styled-components| 6.1.18        |
+| react-icons      | 5.5.0         |
+| json-server      | 1.0.0-beta.3  |
 ```
 
 ## Tasks
 
 - [x] JavaScript
 - [x] jQuery
-- [] react
+- [x] React
 
 ## References
 <details>
