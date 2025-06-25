@@ -127,7 +127,7 @@
 ### E-Commerce-Store
 ![E-Store](./images/e-store.png)
 
-[onNetlify](https://cheerful-flan-a5f263.netlify.app/)
+[onNetlify](https://effortless-kashata-1b1576.netlify.app/)
 
 
 
