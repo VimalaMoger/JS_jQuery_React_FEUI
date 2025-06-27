@@ -110,7 +110,7 @@
 ### Screenshots:
 
 ### jQuery Development
-[onNetlify(https://glowing-scone-599a90.netlify.app/)
+[onNetlify](https://glowing-scone-599a90.netlify.app/)
 
 ### Calculator
 
