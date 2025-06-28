@@ -114,6 +114,9 @@
 
 ### Screenshots:
 
+### jQuery Development
+[onNetlify](https://glowing-scone-599a90.netlify.app/)
+
 ### Calculator
 
 ![Calculator](./images/calculator.png)
@@ -129,7 +132,7 @@
 ### E-Commerce-Store
 ![E-Store](./images/e-store.png)
 
-[onNetlify](https://cheerful-flan-a5f263.netlify.app/)
+[onNetlify](https://effortless-kashata-1b1576.netlify.app/)
 
 
 
