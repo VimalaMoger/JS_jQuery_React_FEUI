@@ -2,13 +2,17 @@
 
 > ***_JavaScript_ Development:*** 
 
-  * Developed a Webpage using Document Object Model to manipulate Web Page Components, Embedded Internal and External JavaScript, JavaScript variables, Object in JS, Data Types, Arithmetic Operators, Random Numbers, Arrays, Splice, Sort, Join Arrays, Loops, Functions, and Events.
+  * Developed a webpage using DOM interface methods and property to manipulate HTML elements, attributes and CSS Styles, Embedded Internal and External JavaScript, played around with JavaScript variables, Objects, Data Types, Arithmetic Operators, Random Numbers, Arrays, Splice, Sort, Join Arrays, Loops, Functions, and Events.
 
   * Developed scripts for BG Color Changer, Photo Gallery.
 
+
+
 > ***_jQuery_ Development:***
 
-  * Developed a Webpage using jQuery Syntax and Selectors, External jQuery File, Events, Toggle Components, Animate Objects, Callback Functions, Build Interactive Navigation Components, Get Content Method, Chaining, X and Y coordinates.
+  * Developed a webpage using jQuery Syntax and Selectors, External jQuery File, Events, Toggle Components, Animate Objects, Callback Functions, Build Interactive Navigation Components, Get Content Method, Chaining, X and Y coordinates.
+
+
   
 > ***_React_ - Simple Calculator Application:***
 
@@ -19,6 +23,7 @@
     * Implemented Calculator Display, Numbers and Operators.
     
     * Did a build and deployed to Netlify.
+
   
   
 > ***_React_ - Connect-4 Clone Board Game:***
