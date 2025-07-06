@@ -1,6 +1,6 @@
 # Project Contents
 
-> ***_JavaScript_ Development:*** 
+####  ***_JavaScript_ Development:*** 
 
   * Developed a webpage using DOM interface methods and property to manipulate HTML elements, attributes and CSS Styles, Embedded Internal and External JavaScript, played around with JavaScript variables, Objects, Data Types, Arithmetic Operators, Random Numbers, Arrays, Splice, Sort, Join Arrays, Loops, Functions, and Events.
 
@@ -9,14 +9,14 @@
 <br>
 <br>
 
-> ***_jQuery_ Development:***
+####  ***_jQuery_ Development:***
 
   * Developed a webpage using jQuery Syntax and Selectors, External jQuery File, Events, Toggle Components, Animate Objects, Callback Functions, Build Interactive Navigation Components, Get Content Method, Chaining, X and Y coordinates.
 <br>
 <br>
 <br>  
 
-> ***_React_ - Simple Calculator Application:***
+####  ***_React_ - Simple Calculator Application:***
 
     * Worked with React useState Hook that holds JSON object to track individual values.
     
@@ -29,7 +29,7 @@
 <br>
 <br>  
 
-> ***_React_ - Connect-4 Clone Board Game:***
+####  ***_React_ - Connect-4 Clone Board Game:***
 
   * Developed a functional and playable Small GameBoard with 16 Circles.
   
@@ -53,7 +53,7 @@
 <br>
 <br>
 
-> ***_React_ - Build an E-Commerce Site***
+####  ***_React_ - Build an E-Commerce Site***
 
   * Built a basic E-commerce store - we can browse product, view product details, add a product to the basket,
     modify quantities in basket, including remove or clear all items, also a basic checkout page
@@ -74,9 +74,10 @@
     
     * Name, Email, Address validation and employed debouncing, disabling buttons
 <br>
+<br>   
 <br>
-<br> 
-## Other Concepts  
+
+### Other Concepts  
 
 
 >  ES6(JavaScript) Template Strings, Ternery Expression, const Keyword, map() Method, Arrays, Switch Statement, Spread Operator, Comparison Operators, 
@@ -88,6 +89,7 @@
 <br>
 <br>
 <br>
+
 ### Libraries and versions
 
 ```
@@ -106,7 +108,8 @@
 <br>
 <br>
 <br>
-## Tasks
+
+### Tasks
 
 - [x] JavaScript
 - [x] jQuery
@@ -114,7 +117,8 @@
 <br>
 <br>
 <br>
-## References
+
+### References
 <details>
 
   [StackOverflowQ/A](https://stackoverflow.com  "QA")<br>
@@ -126,32 +130,36 @@
 <br>
 <br>
 <br>
+
 ### Screenshots and appView links:
 
-### jQuery Development
-[onNetlify](https://glowing-scone-599a90.netlify.app/)
+## jQuery Development
+[View](https://glowing-scone-599a90.netlify.app/)
 <br>
 <br>
 <br>
+
 ### Calculator
 
 ![Calculator](./images/calculator.png)
 
-[OnNetlify](https://teal-bienenstitch-6e2de9.netlify.app/)
+[View](https://teal-bienenstitch-6e2de9.netlify.app/)
 <br>
 <br>
 <br>
+
 ### Connect-4 Clone
 ![Connect-4 Clone](./images/connect4.png)
 
-[onNetlify](https://iridescent-quokka-786002.netlify.app/)
+[View](https://iridescent-quokka-786002.netlify.app/)
 <br>
 <br>
 <br>
+
 ### E-Commerce-Store
 ![E-Store](./images/e-store.png)
 
-[onNetlify](https://effortless-kashata-1b1576.netlify.app/)
+[View](https://melodious-licorice-4ac6e1.netlify.app)
 
 
 
